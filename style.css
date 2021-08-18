@@ -1,0 +1,89 @@
+/* main body color */
+
+body {
+  background-color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  padding-top: 90px;
+  color: white
+}
+
+/* button placement */
+
+button {
+  margin: 1em;
+}
+
+/* nav bar sizing, margin, border size, and background color */
+
+.navbar {
+  background-color: black;
+  color: white;
+  padding-bottom: 0;
+  padding-left: 0;
+  border-bottom: solid;
+  border-bottom-color: white;
+  width: 100%;
+}
+
+/* nav bar text characteristics */
+#navbar-title {
+  padding: 15px;
+  font-size: 30px;
+  color: #fff !important;
+}
+
+/* centering of text in nav bar */
+.container-fluid {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/* test question boxed containers */
+#details {
+  background-color: white;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  padding: 40px;
+}
+
+/* list of questions characteristics */
+li {
+  height: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  background-color: #897d9a;
+  color: #fff;
+  font-size: 1.5em;
+  line-height: 1.5;
+  list-style-type: none;
+}
+
+/* color when hovering selected answer */
+li:hover {
+  background-color:lightskyblue;
+}
+
+/* answer container placement and sizing */
+
+#answer-image {
+  float: left;
+  padding-right: 1em;
+  padding-top: 0.25em;
+}
+
+/* scaling for devices */
+
+@media (max-width: 768px) {
+  .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  li {
+    border-right: none;
+  }
+  .nav-link {
+    padding: 1px;
+  }
+}
